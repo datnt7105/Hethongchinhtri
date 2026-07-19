@@ -10,3 +10,5 @@ coverage/
 tmp/
 .agents/
 .codex-*/
+
+.vercel
