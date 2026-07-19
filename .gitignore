@@ -1,0 +1,12 @@
+.next/
+node_modules/
+.pnpm-store/
+out/
+coverage/
+.env*
+!.env.example
+*.log
+*.tsbuildinfo
+tmp/
+.agents/
+.codex-*/

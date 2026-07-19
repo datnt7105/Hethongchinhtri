@@ -1,0 +1,108 @@
+import type { TimelineEvent } from "@/types/timeline";
+
+export const timelineEvents: TimelineEvent[] = [
+  {
+    id: "constitution-1946",
+    date: "1946-11-09",
+    category: "constitution",
+    title: { vi: "Hiến pháp năm 1946", en: "1946 Constitution" },
+    summary: {
+      vi: "Bản Hiến pháp đầu tiên của nước Việt Nam Dân chủ Cộng hòa được Quốc hội thông qua.",
+      en: "The first Constitution of the Democratic Republic of Vietnam was adopted by the National Assembly.",
+    },
+    changeTypes: ["constitution"],
+    relatedEntityIds: [],
+    legalSourceIds: ["S07"],
+    lastReviewedAt: "2026-07-16",
+  },
+  {
+    id: "constitution-1960",
+    date: "1960-01-01",
+    category: "constitution",
+    title: { vi: "Hiến pháp năm 1960", en: "1960 Constitution" },
+    summary: {
+      vi: "Mốc Hiến pháp tiếp theo trong tiến trình tổ chức Nhà nước Việt Nam hiện đại.",
+      en: "The next constitutional milestone in the development of Vietnam's modern State organization.",
+    },
+    changeTypes: ["constitution"],
+    relatedEntityIds: [],
+    legalSourceIds: ["S08"],
+    lastReviewedAt: "2026-07-16",
+  },
+  {
+    id: "constitution-1980",
+    date: "1980-12-19",
+    category: "constitution",
+    title: { vi: "Hiến pháp năm 1980", en: "1980 Constitution" },
+    summary: {
+      vi: "Một mốc Hiến pháp quan trọng sau khi đất nước thống nhất.",
+      en: "A major constitutional milestone following national reunification.",
+    },
+    changeTypes: ["constitution"],
+    relatedEntityIds: [],
+    legalSourceIds: ["S09"],
+    lastReviewedAt: "2026-07-16",
+  },
+  {
+    id: "constitution-1992",
+    date: "1992-04-18",
+    category: "constitution",
+    title: { vi: "Hiến pháp năm 1992", en: "1992 Constitution" },
+    summary: {
+      vi: "Hiến pháp được ban hành trong giai đoạn đổi mới và phát triển đất nước.",
+      en: "A Constitution promulgated during Vietnam's period of renewal and national development.",
+    },
+    changeTypes: ["constitution"],
+    relatedEntityIds: [],
+    legalSourceIds: ["S10"],
+    lastReviewedAt: "2026-07-16",
+  },
+  {
+    id: "constitution-2013",
+    date: "2013-11-28",
+    category: "constitution",
+    title: { vi: "Hiến pháp năm 2013", en: "2013 Constitution" },
+    summary: {
+      vi: "Nền tảng Hiến pháp chính cho cấu trúc hệ thống chính trị và bộ máy Nhà nước được trình bày trong website.",
+      en: "The principal constitutional foundation for the political-system and state-apparatus structures presented by this website.",
+    },
+    changeTypes: ["constitution", "state-organization"],
+    relatedEntityIds: ["people", "party", "state", "national-assembly", "government"],
+    legalSourceIds: ["S01"],
+    lastReviewedAt: "2026-07-16",
+  },
+  {
+    id: "constitution-amendment-2025",
+    date: "2025-06-16",
+    category: "constitution",
+    title: {
+      vi: "Sửa đổi, bổ sung một số điều của Hiến pháp",
+      en: "Selected constitutional amendments",
+    },
+    summary: {
+      vi: "Nghị quyết 203/2025/QH15 sửa đổi các nội dung liên quan đến Mặt trận, tổ chức chính trị - xã hội và tổ chức đơn vị hành chính hai cấp.",
+      en: "Resolution 203/2025/QH15 amended provisions concerning the Front, socio-political organizations, and the two-level administrative model.",
+    },
+    changeTypes: ["constitution", "organization", "administrative-levels"],
+    relatedEntityIds: ["front", "local-government-system"],
+    legalSourceIds: ["S02"],
+    lastReviewedAt: "2026-07-16",
+  },
+  {
+    id: "local-government-2025",
+    date: "2025-06-16",
+    category: "administrative-reform",
+    title: {
+      vi: "Luật Tổ chức chính quyền địa phương năm 2025",
+      en: "2025 Law on Organization of Local Government",
+    },
+    summary: {
+      vi: "Cơ sở luật định cho việc trình bày chính quyền địa phương theo mô hình hai cấp trong Phase 1.",
+      en: "The statutory basis for presenting local government as a two-level model in Phase 1.",
+    },
+    changeTypes: ["administrative-reform", "two-level-local-government"],
+    relatedEntityIds: ["local-government-system", "provincial-level", "commune-level"],
+    legalSourceIds: ["S03"],
+    lastReviewedAt: "2026-07-16",
+  },
+];
