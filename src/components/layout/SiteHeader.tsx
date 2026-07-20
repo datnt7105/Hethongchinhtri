@@ -41,7 +41,7 @@ export function SiteHeader({ locale }: { locale: Locale }) {
         </Link>
 
         <span className="site-header__crest" aria-hidden="true">
-          <Image alt="" height={68} priority src="/images/national-emblem.png" width={68} />
+          <Image alt="" height={60} priority src="/images/header-national-flag-v2.png" width={60} />
         </span>
       </div>
 

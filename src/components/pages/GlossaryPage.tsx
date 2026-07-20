@@ -9,12 +9,12 @@ import { GlossaryExplorer } from "@/components/glossary/GlossaryExplorer";
 export function GlossaryPage({ locale }: { locale: Locale }) {
   const content = contentPages.glossary;
   return (
-    <div className="content-page shell section-space">
+    <div className="content-page content-page--glossary shell section-space">
       <Breadcrumbs locale={locale} items={[
         { label: { vi: "Trang chủ", en: "Home" }, href: routeFor("home", locale) },
         { label: content.title },
       ]} />
-      <header className="page-header content-page__header">
+      <header className="page-header content-page__header themed-page-header themed-page-header--glossary">
         <p className="eyebrow">{localize(content.eyebrow, locale)}</p>
         <h1>{localize(content.title, locale)}</h1>
         <p>{localize(content.lead, locale)}</p>

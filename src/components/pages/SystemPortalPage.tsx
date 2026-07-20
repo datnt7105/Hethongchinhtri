@@ -36,13 +36,13 @@ const portalThemeImages: Partial<Record<PageSubjectId, PortalThemeImage>> = {
     sourceHref: "https://cdcjsc.vn/vi/dich-vu-tu-van-va-giam-sat.pd/nha-lam-viec-van-phong-trung-uong-dang-cong-trinh-a6.html",
   },
   state: {
-    src: "/images/themes/ho-chi-minh-mausoleum.png",
+    src: "/images/themes/state-history-sharp-v2.png",
   },
   front: {
     src: "/images/themes/front-mttq-sharp.png",
   },
   "armed-forces": {
-    src: "/images/themes/armed-forces-personnel.png",
+    src: "/images/themes/government-building-sharp.png",
   },
   army: {
     src: "/images/themes/ministry-national-defence.png",

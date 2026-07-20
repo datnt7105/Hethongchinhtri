@@ -14,6 +14,11 @@ export const metadata: Metadata = {
   },
   description:
     "Khám phá vai trò, cơ cấu và mối quan hệ giữa các thành phần trong hệ thống chính trị Việt Nam.",
+  icons: {
+    icon: "/images/site-icon-national-emblem-favicon.png",
+    shortcut: "/images/site-icon-national-emblem-favicon.png",
+    apple: "/images/site-icon-national-emblem-favicon.png",
+  },
 };
 
 const themeScript = `(() => {

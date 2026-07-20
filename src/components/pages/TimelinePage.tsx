@@ -9,12 +9,12 @@ import { TimelineExplorer } from "@/components/timeline/TimelineExplorer";
 export function TimelinePage({ locale }: { locale: Locale }) {
   const content = contentPages.history;
   return (
-    <div className="content-page shell section-space">
+    <div className="content-page content-page--history shell section-space">
       <Breadcrumbs locale={locale} items={[
         { label: { vi: "Trang chủ", en: "Home" }, href: routeFor("home", locale) },
         { label: content.title },
       ]} />
-      <header className="page-header content-page__header">
+      <header className="page-header content-page__header themed-page-header themed-page-header--history">
         <p className="eyebrow">{localize(content.eyebrow, locale)}</p>
         <h1>{localize(content.title, locale)}</h1>
         <p>{localize(content.lead, locale)}</p>
